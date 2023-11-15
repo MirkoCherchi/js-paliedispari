@@ -1,6 +1,6 @@
 'use strict'
 
-let parolaUtente = prompt('inserisci una parola');
+let parolaUtente = prompt('inserisci una parola').toLowerCase();
 
 
 function palindroma(parola) {
